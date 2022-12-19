@@ -2,26 +2,80 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
-## Development server
+Primer Parcial Programación Web ISTEA
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+En la empresa donde usted se encuentra prestando sus servicios como analista y desarrollador
+de sistemas están actualmente realizando un sitio web de uno de los clientes Bancarios más
+importantes y su líder técnico le encomendó realizar los siguientes componentes dentro del
+sitio web:
 
-## Code scaffolding
+1. Vista Menu-component:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Crear un componente el cual puede ser una barra Lateral Izquierda o un conjunto
+agrupado de botones que re direccionen a los componentes del punto 2 (formulario) y
+3 (tabla), este componente le permitirá al user navegar por las diferentes opciones
+dentro de la aplicación
 
-## Build
+2) Al presionar la opción de “Tools” del menú deberá mostrarse un formulario que le
+permitirá al usuario cargar sus datos (apellido , nombre , correo , operador , papel ) , todos
+los campos son obligatorios y el botón de “cambiar contraseña solo debe aparecer si están
+presente todos los input “ caso contrario debe estar oculto , al presionar el botón de
+“cambiar contraseña” por la consola del navegador se debe mostrar una password que
+debe ser generada de manera automática (lo muestran mediante un console.log() y usar
+algún función como por ej Math.random())
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3) Al presionar el botón “Dashboard”
+Deberá ser visualizado una tabla como la siguiente:
 
-## Running unit tests
+Esta vista debe poseer un filtro que permita filtrar el listado de la tabla por país
+Le brindaron el siguiente Json para que lo tome de ejemplo a la hora de generar los datos
+para el servicio que proveerá la información con la cual se renderiza la tabla html
+[
+ {
+    "country": "BRA",
+    "client": "HCI",
+    "Balance": 100033,
+    "moneda": "reales", 
+  },
+  {
+    "country": "CHL",
+    "client": "I-Payout",
+    "Balance": 100033,
+    "moneda": "dolar", 
+  },
+  {
+    "country": "ARG",
+    "client": "Wester",
+    "Balance": 1053413,
+    "moneda": "pesos", 
+  },
+  {
+    "country": "COL",
+    "client": "thunes",
+    "Balance": 1543033,
+    "moneda": "dolar", 
+  },
+  {
+    "country": "MEX",
+    "client": "HCI",
+    "Balance": 1123033,
+    "moneda": "dolar", 
+  },
+  {
+    "country": "URY",
+    "client": "Nium",
+    "Balance": 179033,
+    "moneda": "dolar", 
+  }
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+]
 
-## Running end-to-end tests
+Importante:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Se deberán entregar el proyecto a más tardar el día lunes 11/10/2022 a las 22:00hs en la tarea
+asignada al classRoom pasado ese horario no se recibirán más exámenes por ningún otro
+medio
+Subir el examen sin la carpeta “nodeModules”
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ Toda Imagen es ilustrativa y no es necesario que el examen entregado sea
+exactamente igual a las fotos
